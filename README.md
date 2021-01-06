@@ -5,6 +5,7 @@ For more detail : https://github.com/faceterteam/PayCards_Android
 
 ### Usage
 
+Clone and add as module to your project.
 Build an Intent using the `ScanCardIntent.Builder` and start a new activity to perform the scan:
 
 
