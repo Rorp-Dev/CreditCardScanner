@@ -41,6 +41,8 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     }
 }
 ```
+![alt text](https://github.com/rorpheeyah/image-resource/blob/main/creditcardscanner.png)
+
 ### License
 
 ```
