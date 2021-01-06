@@ -16,6 +16,8 @@ static final int REQUEST_CODE_SCAN_CARD = 1;
      
 private void scanCard() {
   Intent intent = new ScanCardIntent.Builder(this).build();
+  ScanCardIntent.SCAN_TITLE  = "카드등록";
+  ScanCardIntent.SCAN_DESC  = "카드를 라인 안에 인식해주세요.\n" + "카드 정보는 다음 단계에서 수정할 수 있습니다.";
   startActivityForResult(intent, REQUEST_CODE_SCAN_CARD);
 }
 ```
