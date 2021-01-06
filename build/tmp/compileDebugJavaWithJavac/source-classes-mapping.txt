@@ -1,0 +1,160 @@
+cards/pay/paycardsrecognizer/sdk/ndk/RecognitionStatusListener.java
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionStatusListener
+cards/pay/paycardsrecognizer/sdk/camera/gles/Sprite2d.java
+ cards.pay.paycardsrecognizer.sdk.camera.gles.Sprite2d
+cards/pay/paycardsrecognizer/sdk/camera/RenderThread.java
+ cards.pay.paycardsrecognizer.sdk.camera.RenderThread
+ cards.pay.paycardsrecognizer.sdk.camera.RenderThread$1
+ cards.pay.paycardsrecognizer.sdk.camera.RenderThread$2
+ cards.pay.paycardsrecognizer.sdk.camera.RenderThread$3
+ cards.pay.paycardsrecognizer.sdk.camera.RenderThread$RenderHandler
+cards/pay/paycardsrecognizer/sdk/camera/FpsCounter.java
+ cards.pay.paycardsrecognizer.sdk.camera.FpsCounter
+cards/pay/paycardsrecognizer/sdk/camera/OrientationHelper.java
+ cards.pay.paycardsrecognizer.sdk.camera.OrientationHelper
+cards/pay/paycardsrecognizer/sdk/ui/ScanCardRequest.java
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest$1
+cards/pay/paycardsrecognizer/sdk/ndk/RecognitionCore.java
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore
+cards/pay/paycardsrecognizer/sdk/camera/CameraManager.java
+ cards.pay.paycardsrecognizer.sdk.camera.CameraManager
+ cards.pay.paycardsrecognizer.sdk.camera.CameraManager$1
+ cards.pay.paycardsrecognizer.sdk.camera.CameraManager$2
+cards/pay/paycardsrecognizer/sdk/utils/Fonts.java
+ cards.pay.paycardsrecognizer.sdk.utils.Fonts
+cards/pay/paycardsrecognizer/sdk/camera/ProcessFrameThread.java
+ cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread
+ cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread$Callbacks
+cards/pay/paycardsrecognizer/sdk/Card.java
+ cards.pay.paycardsrecognizer.sdk.Card
+ cards.pay.paycardsrecognizer.sdk.Card$1
+cards/pay/paycardsrecognizer/sdk/camera/widget/CardDetectionStateView.java
+ cards.pay.paycardsrecognizer.sdk.camera.widget.CardDetectionStateView
+cards/pay/paycardsrecognizer/sdk/ndk/DisplayHelper.java
+ cards.pay.paycardsrecognizer.sdk.ndk.DisplayHelper
+cards/pay/paycardsrecognizer/sdk/camera/BlockingOperationException.java
+ cards.pay.paycardsrecognizer.sdk.camera.BlockingOperationException
+cards/pay/paycardsrecognizer/sdk/camera/AutoFocusManager.java
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl$1
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl$2
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$FocusManager
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$FocusMoveCallback
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$1
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$2
+ cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$3
+cards/pay/paycardsrecognizer/sdk/camera/gles/Texture2dProgram.java
+ cards.pay.paycardsrecognizer.sdk.camera.gles.Texture2dProgram
+cards/pay/paycardsrecognizer/sdk/ui/views/ProgressBarIndeterminate.java
+ cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate
+ cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate$1
+cards/pay/paycardsrecognizer/sdk/camera/RecognitionCoreUtils.java
+ cards.pay.paycardsrecognizer.sdk.camera.RecognitionCoreUtils
+ cards.pay.paycardsrecognizer.sdk.camera.RecognitionCoreUtils$1
+cards/pay/paycardsrecognizer/sdk/camera/gles/WindowSurface.java
+ cards.pay.paycardsrecognizer.sdk.camera.gles.WindowSurface
+cards/pay/paycardsrecognizer/sdk/ndk/RecognitionCoreImpl.java
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreImpl
+cards/pay/paycardsrecognizer/sdk/camera/gles/GlUtil.java
+ cards.pay.paycardsrecognizer.sdk.camera.gles.GlUtil
+cards/pay/paycardsrecognizer/sdk/ndk/RecognitionCoreNdk.java
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk$1
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk$TorchStatusListenerHandler
+cards/pay/paycardsrecognizer/sdk/camera/CameraConfigurationUtils.java
+ cards.pay.paycardsrecognizer.sdk.camera.CameraConfigurationUtils
+cards/pay/paycardsrecognizer/sdk/utils/Constants.java
+ cards.pay.paycardsrecognizer.sdk.utils.Constants
+cards/pay/paycardsrecognizer/sdk/ndk/RecognitionCoreDummy.java
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreDummy
+cards/pay/paycardsrecognizer/sdk/ui/InitLibraryFragment.java
+ cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment
+ cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment$DeployCoreTask
+ cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment$InteractionListener
+cards/pay/paycardsrecognizer/sdk/camera/widget/CameraPreviewLayout.java
+ cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout
+ cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout$LayoutParams
+cards/pay/paycardsrecognizer/sdk/ui/ScanCardFragment.java
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$1
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$2
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$3
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$4
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$InteractionListener
+cards/pay/paycardsrecognizer/sdk/camera/ScanManager.java
+ cards.pay.paycardsrecognizer.sdk.camera.ScanManager
+ cards.pay.paycardsrecognizer.sdk.camera.ScanManager$1
+ cards.pay.paycardsrecognizer.sdk.camera.ScanManager$2
+ cards.pay.paycardsrecognizer.sdk.camera.ScanManager$3
+ cards.pay.paycardsrecognizer.sdk.camera.ScanManager$4
+ cards.pay.paycardsrecognizer.sdk.camera.ScanManager$5
+ cards.pay.paycardsrecognizer.sdk.camera.ScanManager$Callbacks
+cards/pay/paycardsrecognizer/sdk/ndk/TorchStatusListener.java
+ cards.pay.paycardsrecognizer.sdk.ndk.TorchStatusListener
+cards/pay/paycardsrecognizer/sdk/camera/widget/OnWindowFocusChangedListener.java
+ cards.pay.paycardsrecognizer.sdk.camera.widget.OnWindowFocusChangedListener
+cards/pay/paycardsrecognizer/sdk/ndk/DisplayConfigurationImpl.java
+ cards.pay.paycardsrecognizer.sdk.ndk.DisplayConfigurationImpl
+cards/pay/paycardsrecognizer/sdk/camera/gles/Drawable2d.java
+ cards.pay.paycardsrecognizer.sdk.camera.gles.Drawable2d
+cards/pay/paycardsrecognizer/sdk/camera/TorchManager.java
+ cards.pay.paycardsrecognizer.sdk.camera.TorchManager
+ cards.pay.paycardsrecognizer.sdk.camera.TorchManager$1
+cards/pay/paycardsrecognizer/sdk/camera/gles/EglCore.java
+ cards.pay.paycardsrecognizer.sdk.camera.gles.EglCore
+cards/pay/paycardsrecognizer/sdk/ui/ScanCardActivity.java
+ cards.pay.paycardsrecognizer.sdk.ui.ScanCardActivity
+cards/pay/paycardsrecognizer/sdk/camera/widget/CardRectCoordsMapper.java
+ cards.pay.paycardsrecognizer.sdk.camera.widget.CardRectCoordsMapper
+cards/pay/paycardsrecognizer/sdk/BuildConfig.java
+ cards.pay.paycardsrecognizer.sdk.BuildConfig
+cards/pay/paycardsrecognizer/sdk/camera/ScanManagerHandler.java
+ cards.pay.paycardsrecognizer.sdk.camera.ScanManagerHandler
+cards/pay/paycardsrecognizer/sdk/ui/views/ButtonWithTopBorder.java
+ cards.pay.paycardsrecognizer.sdk.ui.views.ButtonWithTopBorder
+cards/pay/paycardsrecognizer/sdk/ui/views/TabletCardRecognitionHolderLinearLayout.java
+ cards.pay.paycardsrecognizer.sdk.ui.views.TabletCardRecognitionHolderLinearLayout
+cards/pay/paycardsrecognizer/sdk/ndk/DisplayConfiguration.java
+ cards.pay.paycardsrecognizer.sdk.ndk.DisplayConfiguration
+cards/pay/paycardsrecognizer/sdk/ndk/NeuroDataHelper.java
+ cards.pay.paycardsrecognizer.sdk.ndk.NeuroDataHelper
+cards/pay/paycardsrecognizer/sdk/utils/Size.java
+ cards.pay.paycardsrecognizer.sdk.utils.Size
+cards/pay/paycardsrecognizer/sdk/camera/CameraUtils.java
+ cards.pay.paycardsrecognizer.sdk.camera.CameraUtils
+ cards.pay.paycardsrecognizer.sdk.camera.CameraUtils$NativeSupportedSize
+cards/pay/paycardsrecognizer/sdk/camera/RecognitionAvailabilityChecker.java
+ cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker
+ cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder
+ cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$Result
+cards/pay/paycardsrecognizer/sdk/ScanCardIntent.java
+ cards.pay.paycardsrecognizer.sdk.ScanCardIntent
+ cards.pay.paycardsrecognizer.sdk.ScanCardIntent$Builder
+ cards.pay.paycardsrecognizer.sdk.ScanCardIntent$CancelReason
+cards/pay/paycardsrecognizer/sdk/camera/WindowRotationListener.java
+ cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener
+ cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$1
+ cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$Impl
+ cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplApi17
+ cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault
+ cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault$1
+ cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$RotationListener
+cards/pay/paycardsrecognizer/sdk/utils/CardUtils.java
+ cards.pay.paycardsrecognizer.sdk.utils.CardUtils
+cards/pay/paycardsrecognizer/sdk/utils/PaycardsHelper.java
+ cards.pay.paycardsrecognizer.sdk.utils.PaycardsHelper
+ cards.pay.paycardsrecognizer.sdk.utils.PaycardsHelper$1
+cards/pay/paycardsrecognizer/sdk/ndk/RecognitionResult.java
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$1
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder
+cards/pay/paycardsrecognizer/sdk/camera/RecognitionUnavailableException.java
+ cards.pay.paycardsrecognizer.sdk.camera.RecognitionUnavailableException
+cards/pay/paycardsrecognizer/sdk/ndk/RecognitionConstants.java
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants$DetectedBorderFlags
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants$RecognitionMode
+ cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants$WorkAreaOrientation

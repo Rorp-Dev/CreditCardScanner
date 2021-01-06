@@ -1,0 +1,278 @@
+cards.pay.paycardsrecognizer.sdk.camera.FpsCounter:
+    public void <init>()
+    public final synchronized void tickFPS()
+    public synchronized void update()
+    public java.lang.StringBuilder toString(java.lang.StringBuilder)
+    public java.lang.String toString()
+    public final synchronized void setUpdateFPSFrames(int)
+    public final synchronized void resetFPSCounter()
+    public final synchronized int getUpdateFPSFrames()
+    public final synchronized long getFPSStartTime()
+    public final synchronized long getLastFPSUpdateTime()
+    public final synchronized long getLastFPSPeriod()
+    public final synchronized float getLastFPS()
+    public final synchronized int getTotalFPSFrames()
+    public final synchronized long getTotalFPSDuration()
+    public final synchronized float getTotalFPS()
+    private int fpsUpdateFramesInterval
+    private long fpsStartTime
+    private long fpsLastUpdateTime
+    private long fpsLastPeriod
+    private long fpsTotalDuration
+    private int fpsTotalFrames
+    private float fpsLast
+    private float fpsTotal
+    private float fpsLastTickTime
+cards.pay.paycardsrecognizer.sdk.camera.TorchManager:
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.utils.Constants
+cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment$InteractionListener:
+    public abstract void onScanCardCanceled(int)
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl:
+    private static final int FOCUS_DELAY_FAST
+    private static final int FOCUS_DELAY_SLOW
+cards.pay.paycardsrecognizer.sdk.camera.CameraManager:
+    public synchronized boolean isOpen()
+    public int getSensorOrientation()
+    private volatile android.hardware.Camera$PreviewCallback mSnapNextFrameCallback
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener:
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.gles.WindowSurface:
+    public void saveFrame(java.io.File)
+    protected static final java.lang.String TAG
+    private static final boolean DBG
+cards.pay.paycardsrecognizer.sdk.camera.CameraUtils:
+    public void <init>()
+    public static boolean isCameraSupportedBlocking()
+    public static void generateBestCameraPreviewSize()
+    static void generateBestCameraPreviewSize(android.hardware.Camera,java.lang.Iterable)
+    private static boolean tryToSetCameraSize(android.hardware.Camera,cards.pay.paycardsrecognizer.sdk.camera.CameraUtils$NativeSupportedSize)
+    public static java.lang.String getSupportedSizesDescription(java.util.List)
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest:
+    public static final boolean DEFAULT_ENABLE_SOUND
+    public static final boolean DEFAULT_SCAN_EXPIRATION_DATE
+    public static final boolean DEFAULT_SCAN_CARD_HOLDER
+    public static final boolean DEFAULT_GRAB_CARD_IMAGE
+cards.pay.paycardsrecognizer.sdk.ndk.DisplayConfigurationImpl:
+    void setDisplayRotation(int)
+    private static final java.lang.String TAG
+    private static final boolean DBG
+    private static final int LANDSCAPE_ORIENTATION_CORRECTION
+cards.pay.paycardsrecognizer.sdk.utils.PaycardsHelper
+cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread$Callbacks:
+    public abstract void onFpsReport(java.lang.String)
+cards.pay.paycardsrecognizer.sdk.camera.BlockingOperationException:
+    public void <init>(java.lang.Throwable)
+    public void <init>(java.lang.String)
+    public void <init>(java.lang.String,java.lang.Throwable)
+cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout:
+    private static final java.lang.String TAG
+    private static final boolean DBG
+cards.pay.paycardsrecognizer.sdk.camera.widget.CardDetectionStateView:
+    private static final boolean DBG
+    private static final java.lang.String TAG
+    private static final float RECT_CORNER_PADDING_LEFT
+    private static final float RECT_CORNER_PADDING_TOP
+    private static final float RECT_CORNER_LINE_STROKE_WIDTH
+    private static final float RECT_CORNER_RADIUS
+    private static final int TOP_EDGE
+    private static final int BOTTOM_EDGE
+    private static final int LEFT_EDGE
+    private static final int RIGHT_EDGE
+cards.pay.paycardsrecognizer.sdk.camera.gles.Sprite2d:
+    public float getScaleX()
+    public float getScaleY()
+    public float getRotation()
+    public float getPositionX()
+    public float getPositionY()
+    public void setColor(float,float,float)
+    public float[] getColor()
+cards.pay.paycardsrecognizer.sdk.ndk.DisplayHelper:
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker:
+    public void <init>()
+    public static cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$Result doCheckBlocking(android.content.Context)
+    private static final boolean DBG
+    public static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.utils.Fonts:
+    private void <init>(android.content.Context)
+cards.pay.paycardsrecognizer.sdk.camera.gles.GlUtil:
+    private void <init>()
+    public static void logVersionInfo()
+    public static final boolean DBG
+    public static final java.lang.String TAG
+    private static final int SIZEOF_FLOAT
+cards.pay.paycardsrecognizer.sdk.camera.gles.EglCore:
+    public void <init>()
+    public javax.microedition.khronos.egl.EGLSurface createOffscreenSurface(int,int)
+    public void makeCurrent(javax.microedition.khronos.egl.EGLSurface,javax.microedition.khronos.egl.EGLSurface)
+    public boolean isCurrent(javax.microedition.khronos.egl.EGLSurface)
+    public java.lang.String queryString(int)
+    public int getGlVersion()
+    private static final boolean DBG
+    private static final java.lang.String TAG
+    public static final int FLAG_RECORDABLE
+    private static final int EGL_RECORDABLE_ANDROID
+    private static final int EGL_CONTEXT_CLIENT_VERSION
+cards.pay.paycardsrecognizer.sdk.utils.CardUtils:
+    private void <init>()
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionCoreUtils$1
+cards.pay.paycardsrecognizer.sdk.camera.RenderThread$1:
+    public void onFpsReport(java.lang.String)
+cards.pay.paycardsrecognizer.sdk.utils.PaycardsHelper$1
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder:
+    static synthetic int access$000(cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder)
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment:
+    public static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager:
+    public void <init>(android.content.Context,cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout,cards.pay.paycardsrecognizer.sdk.camera.ScanManager$Callbacks)
+    public void resumeScan()
+    public void resetResult()
+    public void unfreezeCameraPreview()
+    private static final int DEFAULT_RECOGNITION_MODE
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.gles.Texture2dProgram:
+    private static final boolean DBG
+    private static final java.lang.String TAG
+    private static final java.lang.String VERTEX_SHADER
+    private static final java.lang.String FRAGMENT_SHADER_EXT
+    public static final int KERNEL_SIZE
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$Result:
+    public boolean isAdditionalCheckRequired()
+    public static final int STATUS_NOT_CHECKED
+    public static final int STATUS_PASSED
+    public static final int STATUS_FAILED
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl:
+    private static final int FOCUS_RESET_DELAY
+cards.pay.paycardsrecognizer.sdk.ndk.NeuroDataHelper:
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout$LayoutParams:
+    public static final int UNSPECIFIED_CARD_GRAVITY
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager:
+    private boolean isCameraFocusFixed()
+    public boolean isStarted()
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardActivity:
+    public void onScanCardCanceled(int)
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk:
+    private static final int MESSAGE_RESULT_RECEIVED
+    private static final int MESSAGE_CARD_IMAGE_RECEIVED
+cards.pay.paycardsrecognizer.sdk.camera.CameraManager$2:
+    android.hardware.Camera$PreviewCallback singleFrameCallback
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionCoreUtils:
+    private void <init>()
+    public static void startDeployRecognitionCore(android.content.Context)
+    public static boolean isScanCardSupported(android.content.Context)
+    static synthetic java.util.concurrent.atomic.AtomicBoolean access$000()
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager$5:
+    private static final double SHAKE_THRESHOLD
+cards.pay.paycardsrecognizer.sdk.camera.widget.CardRectCoordsMapper:
+    private static final int DEFAULT_CAMERA_ROTATION
+    private static final float DEFAULT_CARD_NUMBER_FONT_SIZE
+    private static final float DEFAULT_CARD_DATE_FONT_SIZE
+    private static final float DEFAULT_CARD_HOLDER_FONT_SIZE
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionUnavailableException:
+    public static final int ERROR_OTHER
+    public static final int ERROR_NO_CAMERA
+    public static final int ERROR_OLD_DEVICE
+    public static final int ERROR_CAMERA_NOT_SUPPORTED
+    public static final int ERROR_NO_CAMERA_PERMISSION
+    public static final int ERROR_UNSUPPORTED_ARCHITECTURE
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants:
+    static final int WORK_AREA_ORIENTATION_UNKNOWN
+    static final int WORK_AREA_ORIENTATION_PORTAIT
+    static final int WORK_AREA_ORIENTATION_PORTAIT_UPSIDE_DOWN
+    static final int WORK_AREA_ORIENTATION_LANDSCAPE_RIGHT
+    static final int WORK_AREA_ORIENTATION_LANDSCAPE_LEFT
+cards.pay.paycardsrecognizer.sdk.camera.gles.Drawable2d:
+    private static final int SIZEOF_FLOAT
+cards.pay.paycardsrecognizer.sdk.camera.CameraConfigurationUtils:
+    private void <init>()
+    static android.hardware.Camera createCamera()
+    static boolean isFlashSupported(android.hardware.Camera)
+    public static void setFocusArea(android.hardware.Camera$Parameters)
+    public static void setMeteringArea(android.hardware.Camera$Parameters)
+    private static java.util.List buildCardArea()
+    private static java.lang.String toString(java.lang.Iterable)
+    private static final float MAX_EXPOSURE_COMPENSATION
+    private static final float MIN_EXPOSURE_COMPENSATION
+    private static final boolean DBG
+    private static final java.lang.String TAG
+    private static final boolean ENABLE_EXPOSURE
+    private static final boolean ENABLE_METERING
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$InteractionListener:
+    public abstract void onScanCardCanceled(int)
+cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment:
+    public static final java.lang.String TAG
+    private static final int REQUEST_CAMERA_PERMISSION_CODE
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk$TorchStatusListenerHandler:
+    private static final int MESSAGE_TORCH_STATUS_CHANGED
+cards.pay.paycardsrecognizer.sdk.camera.ScanManagerHandler:
+    public void sendFpsResport(java.lang.String)
+    private static final boolean DBG
+    private static final java.lang.String TAG
+    private static final int MSG_SEND_OPEN_CAMERA_ERROR
+    private static final int MSG_SEND_RENDER_THREAD_ERROR
+    private static final int MSG_SEND_CAMERA_OPENED
+    private static final int MSG_SEND_NEW_BORDERS
+    private static final int MSG_SEND_FPS_REPORT
+    private static final int MSG_SEND_AUTO_FOCUS_MOVING
+    private static final int MSG_SEND_AUTO_FOCUS_COMPLETE
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager$4:
+    private long mRecognitionCompleteTs
+cards.pay.paycardsrecognizer.sdk.camera.RenderThread$RenderHandler:
+    public void sendResumeProcessFrames()
+    public void sendRedraw()
+    private static final int MSG_SURFACE_AVAILABLE
+    private static final int MSG_SURFACE_CHANGED
+    private static final int MSG_SURFACE_DESTROYED
+    private static final int MSG_SHUTDOWN
+    private static final int MSG_FRAME_AVAILABLE
+    private static final int MSG_ORIENTATION_CHANGED
+    private static final int MSG_REDRAW
+    private static final int MSG_PAUSE_CAMERA
+    private static final int MSG_RESUME_CAMERA
+    private static final int MSG_PAUSE_PROCESS_FRAMES
+    private static final int MSG_RESUME_PROCESS_FRAMES
+    private static final int MSG_TOGGLE_FLASH
+    private static final int MSG_REQUEST_FOCUS
+    private static final int MSG_FREEZE
+    private static final int MSG_UNFREEZE
+cards.pay.paycardsrecognizer.sdk.camera.CameraManager$1:
+    public void onFpsReport(java.lang.String)
+cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread:
+    private void tickFps(byte[])
+    private void tickDropFps()
+    private void nextFps()
+    private int mFpsNo
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.RenderThread:
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.OrientationHelper:
+    private void <init>()
+    private static final boolean DBG
+    private static final java.lang.String TAG
+cards.pay.paycardsrecognizer.sdk.camera.FpsCounter
+cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout:
+    private final android.graphics.Rect mTmpCard
+cards.pay.paycardsrecognizer.sdk.camera.gles.EglCore:
+    private int mGlVersion
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$1:
+    final synthetic cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment this$0
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionCoreUtils:
+    private static java.util.concurrent.atomic.AtomicBoolean deployRecognitionCoreActive
+cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread:
+    private final cards.pay.paycardsrecognizer.sdk.camera.FpsCounter mFpsCounter
+    private final cards.pay.paycardsrecognizer.sdk.camera.FpsCounter mDropFpsCounter

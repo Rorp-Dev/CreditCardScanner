@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    tools:context=".ui.ScanCardActivity">
+
+    <RelativeLayout
+        android:id="@+id/wocr_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        tools:visibility="visible">
+
+        <include layout="@layout/wocr_include_card_detection_layout" />
+
+<!--        <cards.pay.paycardsrecognizer.sdk.ui.views.ButtonWithTopBorder-->
+<!--            style="@style/wocr_EnterManuallyButton"-->
+<!--            android:id="@+id/wocr_tv_enter_card_number_id"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:includeFontPadding="false"-->
+<!--            android:layout_gravity="bottom"-->
+<!--            android:visibility="visible"-->
+<!--            android:text="@string/wocr_button_enter_card_number" />-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="24dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
+        <LinearLayout
+            android:id="@+id/ln_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            tools:ignore="UseCompoundDrawables">
+            <TextView
+                android:id="@+id/tv_scan_title"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                tools:text="Title"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                tools:ignore="SpUsage" />
+            <ImageView
+                android:id="@+id/iv_close"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/main_close_white"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ln_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="13dp"
+            tools:ignore="UseCompoundDrawables">
+            <TextView
+                android:id="@+id/tv_scan_desc"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                tools:text="Description"
+                android:textColor="@color/wocr_color_f8e71c"
+                android:textSize="15dp"
+                android:layout_marginStart="40dp"
+                android:gravity="center"
+                tools:ignore="SpUsage" />
+            <ImageView
+                android:id="@+id/wocr_iv_flash_id"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/wocr_ic_flash"
+                android:padding="7dp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate
+        android:id="@+id/wocr_progress_bar"
+        android:layout_gravity="center"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@color/wocr_color_f8e71c"
+        android:visibility="visible"/>
+
+</FrameLayout>

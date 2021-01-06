@@ -1,0 +1,1 @@
+D cards/pay/paycardsrecognizer/sdk/ndk/RecognitionConstants$WorkAreaOrientation

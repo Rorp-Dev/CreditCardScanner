@@ -1,0 +1,695 @@
+# compiler: R8
+# compiler_version: 2.1.75
+# pg_map_id: 22c1d06
+# common_typos_disable
+cards.pay.paycardsrecognizer.sdk.BuildConfig -> cards.pay.paycardsrecognizer.sdk.BuildConfig:
+    6:6:void <init>() -> <init>
+cards.pay.paycardsrecognizer.sdk.Card -> cards.pay.paycardsrecognizer.sdk.Card:
+    105:105:void <clinit>() -> <clinit>
+    22:25:void <init>(java.lang.String,java.lang.String,java.lang.String) -> <init>
+    99:102:void <init>(android.os.Parcel) -> <init>
+    58:66:boolean equals(java.lang.Object) -> equals
+    44:44:java.lang.String getCardHolderName() -> getCardHolderName
+    32:32:java.lang.String getCardNumber() -> getCardNumber
+    36:36:java.lang.String getCardNumberRedacted() -> getCardNumberRedacted
+    52:52:java.lang.String getExpirationDate() -> getExpirationDate
+    71:73:int hashCode() -> hashCode
+    79:80:java.lang.String toString() -> toString
+    94:96:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+cards.pay.paycardsrecognizer.sdk.Card$1 -> cards.pay.paycardsrecognizer.sdk.Card$1:
+    105:105:void <init>() -> <init>
+    105:105:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    108:108:cards.pay.paycardsrecognizer.sdk.Card createFromParcel(android.os.Parcel) -> createFromParcel
+    105:105:java.lang.Object[] newArray(int) -> newArray
+    113:113:cards.pay.paycardsrecognizer.sdk.Card[] newArray(int) -> newArray
+cards.pay.paycardsrecognizer.sdk.ScanCardIntent -> cards.pay.paycardsrecognizer.sdk.ScanCardIntent:
+    42:42:void <init>() -> <init>
+cards.pay.paycardsrecognizer.sdk.ScanCardIntent$Builder -> cards.pay.paycardsrecognizer.sdk.ScanCardIntent$Builder:
+    49:59:void <init>(android.content.Context) -> <init>
+    101:104:android.content.Intent build() -> build
+    96:96:cards.pay.paycardsrecognizer.sdk.ScanCardIntent$Builder setSaveCard(boolean) -> setSaveCard
+    76:76:cards.pay.paycardsrecognizer.sdk.ScanCardIntent$Builder setScanCardHolder(boolean) -> setScanCardHolder
+    68:68:cards.pay.paycardsrecognizer.sdk.ScanCardIntent$Builder setScanExpirationDate(boolean) -> setScanExpirationDate
+    86:86:cards.pay.paycardsrecognizer.sdk.ScanCardIntent$Builder setSoundEnabled(boolean) -> setSoundEnabled
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager -> cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager:
+    39:42:void <init>(android.hardware.Camera,cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$FocusMoveCallback) -> <init>
+    81:84:boolean isCameraFocusContinuous() -> isCameraFocusContinuous
+    94:96:boolean isCameraFocusManual() -> isCameraFocusManual
+    75:76:void requestFocus() -> requestFocus
+    46:56:void start() -> start
+    64:66:void stop() -> stop
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl -> cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl:
+    225:275:void <init>(android.hardware.Camera,cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$FocusMoveCallback,android.os.Handler) -> <init>
+    211:211:cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$FocusMoveCallback access$600(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl) -> access$600
+    211:211:boolean access$702(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl,boolean) -> access$702
+    211:211:void access$800(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl) -> access$800
+    211:211:void access$900(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl,int) -> access$900
+    289:289:void cancelAutoFocusSafe() -> cancelAutoFocusSafe
+    253:255:void requestFocus() -> requestFocus
+    267:271:void restartCounter(int) -> restartCounter
+    263:263:void resumeAutoFocus() -> resumeAutoFocus
+    242:243:void start() -> start
+    248:248:void stop() -> stop
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl$1 -> cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl$1:
+    230:230:void <init>(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl) -> <init>
+    233:234:void onAutoFocusMoving(boolean,android.hardware.Camera) -> onAutoFocusMoving
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl$2 -> cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl$2:
+    275:275:void <init>(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$AutoFocusManagerImpl) -> <init>
+    279:280:void run() -> run
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl -> cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl:
+    124:181:void <init>(android.hardware.Camera,cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$FocusMoveCallback,android.os.Handler) -> <init>
+    106:106:cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$FocusMoveCallback access$000(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl) -> access$000
+    106:106:android.hardware.Camera$AutoFocusCallback access$100(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl) -> access$100
+    106:106:android.hardware.Camera access$200(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl) -> access$200
+    106:106:boolean access$302(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl,boolean) -> access$302
+    106:106:boolean access$400() -> access$400
+    106:106:boolean access$402(boolean) -> access$402
+    106:106:void access$500(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl,int) -> access$500
+    199:199:void cancelAutoFocusSafe() -> cancelAutoFocusSafe
+    152:154:void requestFocus() -> requestFocus
+    159:163:void restartCounter(int) -> restartCounter
+    140:141:void start() -> start
+    146:147:void stop() -> stop
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$1 -> cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$1:
+    129:129:void <init>(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl) -> <init>
+    132:132:void onAutoFocusMoving(boolean,android.hardware.Camera) -> onAutoFocusMoving
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$2 -> cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$2:
+    167:167:void <init>(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl) -> <init>
+    171:176:void run() -> run
+cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$3 -> cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl$3:
+    181:181:void <init>(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$ManualFocusManagerImpl) -> <init>
+    184:193:void onAutoFocus(boolean,android.hardware.Camera) -> onAutoFocus
+cards.pay.paycardsrecognizer.sdk.camera.BlockingOperationException -> cards.pay.paycardsrecognizer.sdk.camera.BlockingOperationException:
+    10:10:void <init>() -> <init>
+cards.pay.paycardsrecognizer.sdk.camera.CameraConfigurationUtils -> cards.pay.paycardsrecognizer.sdk.camera.CameraConfigurationUtils:
+    78:78:void <clinit>() -> <clinit>
+    86:86:void initAutoFocus(android.hardware.Camera$Parameters) -> initAutoFocus
+    104:117:void initAutoFocus(android.hardware.Camera$Parameters,boolean) -> initAutoFocus
+    124:126:void initWhiteBalance(android.hardware.Camera$Parameters) -> initWhiteBalance
+    58:74:boolean setFlashLight(android.hardware.Camera,boolean) -> setFlashLight
+cards.pay.paycardsrecognizer.sdk.camera.CameraManager -> cards.pay.paycardsrecognizer.sdk.camera.CameraManager:
+    47:51:void <init>(android.content.Context) -> <init>
+    19:19:cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread$Callbacks access$000(cards.pay.paycardsrecognizer.sdk.camera.CameraManager) -> access$000
+    19:19:android.hardware.Camera access$100(cards.pay.paycardsrecognizer.sdk.camera.CameraManager) -> access$100
+    74:75:int calculateDataRotation() -> calculateDataRotation
+    56:56:android.hardware.Camera getCamera() -> getCamera
+    64:66:android.hardware.Camera$Size getCurrentPreviewSize() -> getCurrentPreviewSize
+    224:224:boolean isAutofocusShouldBeActive() -> isAutofocusShouldBeActive
+    220:220:boolean isTorchManagerShouldBeActive() -> isTorchManagerShouldBeActive
+    79:88:void openCamera() -> openCamera
+    184:215:void openCameraInternal() -> openCameraInternal
+    134:138:void pause() -> pause
+    160:164:void pauseProcessFrames() -> pauseProcessFrames
+    94:109:void releaseCamera() -> releaseCamera
+    129:129:void requestFocus() -> requestFocus
+    143:147:void resume() -> resume
+    152:156:void resumeProcessFrames() -> resumeProcessFrames
+    114:114:void setAutoFocusCallbacks(cards.pay.paycardsrecognizer.sdk.camera.AutoFocusManager$FocusMoveCallback) -> setAutoFocusCallbacks
+    118:118:void setProcessFrameCallbacks(cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread$Callbacks) -> setProcessFrameCallbacks
+    170:178:void startPreview(android.graphics.SurfaceTexture) -> startPreview
+    256:293:void startProcessThread() -> startProcessThread
+    299:302:void stopProcessThread() -> stopProcessThread
+    238:242:void syncAutofocusManager() -> syncAutofocusManager
+    248:251:void syncProcessThread(boolean) -> syncProcessThread
+    228:232:void syncTorchManager() -> syncTorchManager
+    123:124:void toggleFlash() -> toggleFlash
+cards.pay.paycardsrecognizer.sdk.camera.CameraManager$1 -> cards.pay.paycardsrecognizer.sdk.camera.CameraManager$1:
+    261:261:void <init>(cards.pay.paycardsrecognizer.sdk.camera.CameraManager) -> <init>
+    264:264:void onFrameProcessed(int) -> onFrameProcessed
+cards.pay.paycardsrecognizer.sdk.camera.CameraManager$2 -> cards.pay.paycardsrecognizer.sdk.camera.CameraManager$2:
+    278:278:void <init>(cards.pay.paycardsrecognizer.sdk.camera.CameraManager,cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread) -> <init>
+    282:288:void onPreviewFrame(byte[],android.hardware.Camera) -> onPreviewFrame
+cards.pay.paycardsrecognizer.sdk.camera.CameraUtils -> cards.pay.paycardsrecognizer.sdk.camera.CameraUtils:
+    19:19:void <clinit>() -> <clinit>
+    44:53:cards.pay.paycardsrecognizer.sdk.camera.CameraUtils$NativeSupportedSize findBestCameraSupportedSize(java.lang.Iterable) -> findBestCameraSupportedSize
+    142:142:int getBackCameraDataRotation(android.view.Display) -> getBackCameraDataRotation
+    125:129:android.hardware.Camera$CameraInfo getBackCameraInfo() -> getBackCameraInfo
+    137:138:int getBackCameraSensorOrientation() -> getBackCameraSensorOrientation
+    147:149:int getCameraDataRotation(android.view.Display,android.hardware.Camera$CameraInfo) -> getCameraDataRotation
+    24:27:boolean isCameraSupported() -> isCameraSupported
+cards.pay.paycardsrecognizer.sdk.camera.CameraUtils$NativeSupportedSize -> cards.pay.paycardsrecognizer.sdk.camera.CameraUtils$NativeSupportedSize:
+    152:155:void <clinit>() -> <clinit>
+    159:160:void <init>(java.lang.String,int,int,int) -> <init>
+    152:152:cards.pay.paycardsrecognizer.sdk.camera.CameraUtils$NativeSupportedSize valueOf(java.lang.String) -> valueOf
+    152:152:cards.pay.paycardsrecognizer.sdk.camera.CameraUtils$NativeSupportedSize[] values() -> values
+cards.pay.paycardsrecognizer.sdk.camera.OrientationHelper -> cards.pay.paycardsrecognizer.sdk.camera.OrientationHelper:
+    31:34:int getCameraRotationToNatural(int,int,boolean) -> getCameraRotationToNatural
+    40:40:int getDisplayRotationDegrees(android.view.Display) -> getDisplayRotationDegrees
+    49:49:int getDisplayRotationDegrees(int) -> getDisplayRotationDegrees
+    55:70:android.graphics.Rect rotateRect(android.graphics.Rect,int,int,int,android.graphics.Rect) -> rotateRect
+cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread -> cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread:
+    28:81:void <init>(android.content.Context,android.hardware.Camera,cards.pay.paycardsrecognizer.sdk.camera.ProcessFrameThread$Callbacks) -> <init>
+    61:74:void processFrame(byte[]) -> processFrame
+    112:159:void run() -> run
+    47:56:void setActive(boolean) -> setActive
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker -> cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker:
+    31:31:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$Result doCheck(android.content.Context) -> doCheck
+    53:67:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder doCheckInternal(android.content.Context) -> doCheckInternal
+    80:82:boolean isDeviceHasCamera(android.content.Context) -> isDeviceHasCamera
+    74:74:boolean isDeviceNewEnough(android.content.Context) -> isDeviceNewEnough
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder -> cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder:
+    189:196:void <init>() -> <init>
+    231:231:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$Result build() -> build
+    215:215:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder hasCamera(boolean) -> hasCamera
+    220:220:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder hasCameraPermission(boolean) -> hasCameraPermission
+    200:200:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder isBlockingCheck(boolean) -> isBlockingCheck
+    225:225:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder isCameraSupported(boolean) -> isCameraSupported
+    205:205:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder isDeviceNewEnough(boolean) -> isDeviceNewEnough
+    210:210:cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$RecognitionCheckResultBuilder recognitionCoreSupported(boolean) -> recognitionCoreSupported
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$Result -> cards.pay.paycardsrecognizer.sdk.camera.RecognitionAvailabilityChecker$Result:
+    111:117:void <init>(boolean,int,int,int,int,int) -> <init>
+    168:173:java.lang.String getMessage() -> getMessage
+    130:133:boolean isFailed() -> isFailed
+    122:122:boolean isFailedNonBlocking() -> isFailedNonBlocking
+    151:151:boolean isFailedOnCameraPermission() -> isFailedOnCameraPermission
+    139:139:boolean isPassed() -> isPassed
+    163:163:java.lang.String statusToString(int) -> statusToString
+    178:183:java.lang.String toString() -> toString
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionCoreUtils -> cards.pay.paycardsrecognizer.sdk.camera.RecognitionCoreUtils:
+    14:14:void <clinit>() -> <clinit>
+    30:33:void deployRecognitionCoreSync(android.content.Context) -> deployRecognitionCoreSync
+    21:23:boolean isRecognitionCoreDeployRequired(android.content.Context) -> isRecognitionCoreDeployRequired
+cards.pay.paycardsrecognizer.sdk.camera.RecognitionUnavailableException -> cards.pay.paycardsrecognizer.sdk.camera.RecognitionUnavailableException:
+    19:20:void <init>() -> <init>
+    23:24:void <init>(int) -> <init>
+    28:29:void <init>(java.lang.String) -> <init>
+    34:46:java.lang.String getMessage() -> getMessage
+cards.pay.paycardsrecognizer.sdk.camera.RenderThread -> cards.pay.paycardsrecognizer.sdk.camera.RenderThread:
+    42:76:void <init>(android.content.Context,cards.pay.paycardsrecognizer.sdk.camera.ScanManagerHandler) -> <init>
+    31:31:cards.pay.paycardsrecognizer.sdk.camera.ScanManagerHandler access$000(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$000
+    31:31:cards.pay.paycardsrecognizer.sdk.camera.RenderThread$RenderHandler access$100(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$100
+    31:31:cards.pay.paycardsrecognizer.sdk.camera.CameraManager access$1000(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$1000
+    31:31:void access$200(cards.pay.paycardsrecognizer.sdk.camera.RenderThread,android.view.SurfaceHolder,boolean) -> access$200
+    31:31:void access$300(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$300
+    31:31:void access$400(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$400
+    31:31:void access$500(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$500
+    31:31:void access$600(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$600
+    31:31:void access$700(cards.pay.paycardsrecognizer.sdk.camera.RenderThread,int) -> access$700
+    31:31:void access$800(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$800
+    31:31:void access$900(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> access$900
+    373:382:void draw() -> draw
+    307:329:void finishSurfaceSetup() -> finishSurfaceSetup
+    233:234:void frameAvailable() -> frameAvailable
+    282:282:void freeze() -> freeze
+    191:191:cards.pay.paycardsrecognizer.sdk.camera.RenderThread$RenderHandler getHandler() -> getHandler
+    276:277:void orientationChanged(int) -> orientationChanged
+    244:256:void releaseGl() -> releaseGl
+    84:160:void run() -> run
+    183:184:void shutdown() -> shutdown
+    199:220:void surfaceAvailable(android.view.SurfaceHolder,boolean) -> surfaceAvailable
+    269:271:void surfaceChanged(int,int) -> surfaceChanged
+    298:298:void surfaceDestroyed() -> surfaceDestroyed
+    287:287:void unfreeze() -> unfreeze
+    342:366:void updateGeometry() -> updateGeometry
+    169:175:void waitUntilReady() -> waitUntilReady
+cards.pay.paycardsrecognizer.sdk.camera.RenderThread$1 -> cards.pay.paycardsrecognizer.sdk.camera.RenderThread$1:
+    101:101:void <init>(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> <init>
+    104:104:void onFrameProcessed(int) -> onFrameProcessed
+cards.pay.paycardsrecognizer.sdk.camera.RenderThread$2 -> cards.pay.paycardsrecognizer.sdk.camera.RenderThread$2:
+    112:112:void <init>(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> <init>
+    120:120:void onAutoFocusComplete(boolean,android.hardware.Camera) -> onAutoFocusComplete
+    115:115:void onAutoFocusMoving(boolean,android.hardware.Camera) -> onAutoFocusMoving
+cards.pay.paycardsrecognizer.sdk.camera.RenderThread$3 -> cards.pay.paycardsrecognizer.sdk.camera.RenderThread$3:
+    220:220:void <init>(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> <init>
+    224:224:void onFrameAvailable(android.graphics.SurfaceTexture) -> onFrameAvailable
+cards.pay.paycardsrecognizer.sdk.camera.RenderThread$RenderHandler -> cards.pay.paycardsrecognizer.sdk.camera.RenderThread$RenderHandler:
+    418:419:void <init>(cards.pay.paycardsrecognizer.sdk.camera.RenderThread) -> <init>
+    524:580:void handleMessage(android.os.Message) -> handleMessage
+    473:473:void sendFrameAvailable() -> sendFrameAvailable
+    485:485:void sendFreeze() -> sendFreeze
+    477:477:void sendOrientationChanged(int) -> sendOrientationChanged
+    493:493:void sendPauseCamera() -> sendPauseCamera
+    501:501:void sendPauseProcessFrames() -> sendPauseProcessFrames
+    489:489:void sendRequestFocus() -> sendRequestFocus
+    497:497:void sendResumeCamera() -> sendResumeCamera
+    464:464:void sendShutdown() -> sendShutdown
+    434:434:void sendSurfaceAvailable(android.view.SurfaceHolder,boolean) -> sendSurfaceAvailable
+    446:446:void sendSurfaceChanged(int,int,int) -> sendSurfaceChanged
+    455:455:void sendSurfaceDestroyed() -> sendSurfaceDestroyed
+    519:519:void sendToggleFlash() -> sendToggleFlash
+    481:481:void sendUnfreeze() -> sendUnfreeze
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager -> cards.pay.paycardsrecognizer.sdk.camera.ScanManager:
+    86:396:void <init>(int,android.content.Context,cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout,cards.pay.paycardsrecognizer.sdk.camera.ScanManager$Callbacks) -> <init>
+    40:40:android.view.SurfaceHolder access$000() -> access$000
+    40:40:android.view.SurfaceHolder access$002(android.view.SurfaceHolder) -> access$002
+    40:40:cards.pay.paycardsrecognizer.sdk.camera.RenderThread access$100(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> access$100
+    40:40:void access$200(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> access$200
+    40:40:cards.pay.paycardsrecognizer.sdk.camera.widget.CardDetectionStateView access$300(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> access$300
+    40:40:cards.pay.paycardsrecognizer.sdk.camera.ScanManager$Callbacks access$400(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> access$400
+    341:341:void freezeCameraPreview() -> freezeCameraPreview
+    240:240:cards.pay.paycardsrecognizer.sdk.camera.widget.CardDetectionStateView getCardDetectionStateView() -> getCardDetectionStateView
+    244:244:android.view.Display getDisplay() -> getDisplay
+    236:236:android.view.SurfaceView getSurfaceView() -> getSurfaceView
+    336:336:void onAutoFocusComplete(boolean,java.lang.String) -> onAutoFocusComplete
+    331:331:void onAutoFocusMoving(boolean,java.lang.String) -> onAutoFocusMoving
+    299:301:void onCameraOpened(android.hardware.Camera$Parameters) -> onCameraOpened
+    326:326:void onFpsReport(java.lang.String) -> onFpsReport
+    321:321:void onFrameProcessed(int) -> onFrameProcessed
+    307:308:void onOpenCameraError(java.lang.Exception) -> onOpenCameraError
+    206:222:void onPause() -> onPause
+    315:316:void onRenderThreadError(java.lang.Throwable) -> onRenderThreadError
+    160:201:void onResume() -> onResume
+    260:265:void refreshDisplayOrientation() -> refreshDisplayOrientation
+    271:276:void setRecognitionCoreIdle(boolean) -> setRecognitionCoreIdle
+    283:293:void setupCardDetectionCameraParameters(int,int) -> setupCardDetectionCameraParameters
+    352:355:void startShakeDetector() -> startShakeDetector
+    360:361:void stopShakeDetector() -> stopShakeDetector
+    230:232:void toggleFlash() -> toggleFlash
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager$1 -> cards.pay.paycardsrecognizer.sdk.camera.ScanManager$1:
+    102:102:void <init>(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> <init>
+    134:136:void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    106:115:void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    145:150:void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager$2 -> cards.pay.paycardsrecognizer.sdk.camera.ScanManager$2:
+    182:182:void <init>(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> <init>
+    186:188:void onWindowFocusChanged(android.view.View,boolean) -> onWindowFocusChanged
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager$3 -> cards.pay.paycardsrecognizer.sdk.camera.ScanManager$3:
+    194:194:void <init>(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> <init>
+    197:197:void onWindowRotationChanged() -> onWindowRotationChanged
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager$4 -> cards.pay.paycardsrecognizer.sdk.camera.ScanManager$4:
+    364:364:void <init>(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> <init>
+    392:392:void onCardImageReceived(android.graphics.Bitmap) -> onCardImageReceived
+    369:383:void onRecognitionComplete(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> onRecognitionComplete
+cards.pay.paycardsrecognizer.sdk.camera.ScanManager$5 -> cards.pay.paycardsrecognizer.sdk.camera.ScanManager$5:
+    396:401:void <init>(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> <init>
+    405:425:void onSensorChanged(android.hardware.SensorEvent) -> onSensorChanged
+cards.pay.paycardsrecognizer.sdk.camera.ScanManagerHandler -> cards.pay.paycardsrecognizer.sdk.camera.ScanManagerHandler:
+    42:43:void <init>(cards.pay.paycardsrecognizer.sdk.camera.ScanManager) -> <init>
+    76:105:void handleMessage(android.os.Message) -> handleMessage
+    71:71:void sendAutoFocusComplete(boolean,java.lang.String) -> sendAutoFocusComplete
+    67:67:void sendAutoFocusMoving(boolean,java.lang.String) -> sendAutoFocusMoving
+    55:55:void sendCameraOpened(android.hardware.Camera$Parameters) -> sendCameraOpened
+    59:59:void sendFrameProcessed(int) -> sendFrameProcessed
+    47:47:void sendOpenCameraError(java.lang.Exception) -> sendOpenCameraError
+    51:51:void sendRenderThreadError(java.lang.Throwable) -> sendRenderThreadError
+cards.pay.paycardsrecognizer.sdk.camera.TorchManager -> cards.pay.paycardsrecognizer.sdk.camera.TorchManager:
+    26:70:void <init>(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore,android.hardware.Camera) -> <init>
+    13:13:android.hardware.Camera access$000(cards.pay.paycardsrecognizer.sdk.camera.TorchManager) -> access$000
+    13:13:boolean access$102(cards.pay.paycardsrecognizer.sdk.camera.TorchManager,boolean) -> access$102
+    13:13:boolean access$200(cards.pay.paycardsrecognizer.sdk.camera.TorchManager) -> access$200
+    50:50:void destroy() -> destroy
+    54:56:boolean isTorchTurnedOn() -> isTorchTurnedOn
+    33:35:void pause() -> pause
+    40:45:void resume() -> resume
+    60:67:void toggleTorch() -> toggleTorch
+cards.pay.paycardsrecognizer.sdk.camera.TorchManager$1 -> cards.pay.paycardsrecognizer.sdk.camera.TorchManager$1:
+    70:70:void <init>(cards.pay.paycardsrecognizer.sdk.camera.TorchManager) -> <init>
+    75:82:void onTorchStatusChanged(boolean) -> onTorchStatusChanged
+cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener -> cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener:
+    34:37:void <clinit>() -> <clinit>
+    17:17:void <init>() -> <init>
+    17:17:boolean access$300() -> access$300
+    42:42:void register(android.content.Context,android.view.Display,cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$RotationListener) -> register
+    46:46:void unregister() -> unregister
+cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplApi17 -> cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplApi17:
+    104:105:void <init>() -> <init>
+    126:126:void onDisplayAdded(int) -> onDisplayAdded
+    136:138:void onDisplayChanged(int) -> onDisplayChanged
+    131:131:void onDisplayRemoved(int) -> onDisplayRemoved
+    110:113:void register(android.content.Context,android.view.Display,cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$RotationListener) -> register
+    118:121:void unregister() -> unregister
+cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault -> cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault:
+    49:49:void <init>() -> <init>
+    49:49:void <init>(cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$1) -> <init>
+    49:49:android.view.Display access$100(cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault) -> access$100
+    49:49:cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$RotationListener access$200(cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault) -> access$200
+    59:80:void register(android.content.Context,android.view.Display,cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$RotationListener) -> register
+    85:89:void unregister() -> unregister
+cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault$1 -> cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault$1:
+    61:63:void <init>(cards.pay.paycardsrecognizer.sdk.camera.WindowRotationListener$ImplDefault,android.content.Context) -> <init>
+    67:77:void onOrientationChanged(int) -> onOrientationChanged
+cards.pay.paycardsrecognizer.sdk.camera.gles.Drawable2d -> cards.pay.paycardsrecognizer.sdk.camera.gles.Drawable2d:
+    33:48:void <clinit>() -> <clinit>
+    62:68:void <init>() -> <init>
+    114:114:int getCoordsPerVertex() -> getCoordsPerVertex
+    86:86:java.nio.FloatBuffer getTexCoordArray() -> getTexCoordArray
+    107:107:int getTexCoordStride() -> getTexCoordStride
+    77:77:java.nio.FloatBuffer getVertexArray() -> getVertexArray
+    93:93:int getVertexCount() -> getVertexCount
+    100:100:int getVertexStride() -> getVertexStride
+cards.pay.paycardsrecognizer.sdk.camera.gles.EglCore -> cards.pay.paycardsrecognizer.sdk.camera.gles.EglCore:
+    49:106:void <init>(javax.microedition.khronos.egl.EGLContext,int) -> <init>
+    315:316:void checkEglError(java.lang.String) -> checkEglError
+    198:210:javax.microedition.khronos.egl.EGLSurface createWindowSurface(java.lang.Object) -> createWindowSurface
+    171:181:void finalize() -> finalize
+    122:143:javax.microedition.khronos.egl.EGLConfig getConfig(int) -> getConfig
+    237:242:void makeCurrent(javax.microedition.khronos.egl.EGLSurface) -> makeCurrent
+    263:265:void makeNothingCurrent() -> makeNothingCurrent
+    291:293:int querySurface(javax.microedition.khronos.egl.EGLSurface,int) -> querySurface
+    153:165:void release() -> release
+    189:189:void releaseSurface(javax.microedition.khronos.egl.EGLSurface) -> releaseSurface
+    275:275:boolean swapBuffers(javax.microedition.khronos.egl.EGLSurface) -> swapBuffers
+cards.pay.paycardsrecognizer.sdk.camera.gles.GlUtil -> cards.pay.paycardsrecognizer.sdk.camera.gles.GlUtil:
+    35:36:void <clinit>() -> <clinit>
+    105:109:void checkGlError(java.lang.String) -> checkGlError
+    121:121:void checkLocation(int,java.lang.String) -> checkLocation
+    130:134:java.nio.FloatBuffer createFloatBuffer(float[]) -> createFloatBuffer
+    50:74:int createProgram(java.lang.String,java.lang.String) -> createProgram
+    86:95:int loadShader(int,java.lang.String) -> loadShader
+cards.pay.paycardsrecognizer.sdk.camera.gles.Sprite2d -> cards.pay.paycardsrecognizer.sdk.camera.gles.Sprite2d:
+    37:46:void <init>(cards.pay.paycardsrecognizer.sdk.camera.gles.Drawable2d) -> <init>
+    175:180:void draw(cards.pay.paycardsrecognizer.sdk.camera.gles.Texture2dProgram,float[]) -> draw
+    139:142:float[] getModelViewMatrix() -> getModelViewMatrix
+    54:62:void recomputeMatrix() -> recomputeMatrix
+    128:130:void setPosition(float,float) -> setPosition
+    106:107:void setRotation(float) -> setRotation
+    83:85:void setScale(float,float) -> setScale
+    158:158:void setTexture(int) -> setTexture
+    185:185:java.lang.String toString() -> toString
+cards.pay.paycardsrecognizer.sdk.camera.gles.Texture2dProgram -> cards.pay.paycardsrecognizer.sdk.camera.gles.Texture2dProgram:
+    67:105:void <init>() -> <init>
+    127:143:int createTextureObject() -> createTextureObject
+    196:247:void draw(float[],java.nio.FloatBuffer,int,int,int,int,float[],java.nio.FloatBuffer,int,int) -> draw
+    117:118:void release() -> release
+    154:159:void setKernel(float[],float) -> setKernel
+    170:170:void setTexSize(int,int) -> setTexSize
+cards.pay.paycardsrecognizer.sdk.camera.gles.WindowSurface -> cards.pay.paycardsrecognizer.sdk.camera.gles.WindowSurface:
+    49:65:void <init>(cards.pay.paycardsrecognizer.sdk.camera.gles.EglCore,android.view.SurfaceHolder,boolean) -> <init>
+    90:93:void createWindowSurface(java.lang.Object) -> createWindowSurface
+    120:121:int getHeight() -> getHeight
+    109:110:int getWidth() -> getWidth
+    140:140:void makeCurrent() -> makeCurrent
+    75:80:void release() -> release
+    131:133:void releaseEglSurface() -> releaseEglSurface
+    149:151:boolean swapBuffers() -> swapBuffers
+cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout -> cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout:
+    43:43:void <init>(android.content.Context) -> <init>
+    47:47:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    39:52:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    220:220:boolean checkLayoutParams(android.view.ViewGroup$LayoutParams) -> checkLayoutParams
+    189:200:void constrainChildRect(cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout$LayoutParams,android.graphics.Rect,int,int) -> constrainChildRect
+    22:22:android.view.ViewGroup$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    22:22:android.widget.FrameLayout$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    210:210:cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout$LayoutParams generateDefaultLayoutParams() -> generateDefaultLayoutParams
+    22:22:android.view.ViewGroup$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
+    22:22:android.widget.FrameLayout$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
+    205:205:cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout$LayoutParams generateLayoutParams(android.util.AttributeSet) -> generateLayoutParams
+    215:215:android.view.ViewGroup$LayoutParams generateLayoutParams(android.view.ViewGroup$LayoutParams) -> generateLayoutParams
+    139:175:void getChildRect(int,android.graphics.Rect,android.graphics.Rect,cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout$LayoutParams,int,int) -> getChildRect
+    60:60:cards.pay.paycardsrecognizer.sdk.camera.widget.CardDetectionStateView getDetectionStateOverlay() -> getDetectionStateOverlay
+    56:56:android.view.SurfaceView getSurfaceView() -> getSurfaceView
+    88:90:void onFinishInflate() -> onFinishInflate
+    113:131:void onLayout(boolean,int,int,int,int) -> onLayout
+    80:82:void onSizeChanged(int,int,int,int) -> onSizeChanged
+    103:107:void onWindowFocusChanged(boolean) -> onWindowFocusChanged
+    72:75:void setCameraParameters(int,int,int,android.graphics.Rect) -> setCameraParameters
+    64:64:void setOnWindowFocusChangedListener(cards.pay.paycardsrecognizer.sdk.camera.widget.OnWindowFocusChangedListener) -> setOnWindowFocusChangedListener
+cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout$LayoutParams -> cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout$LayoutParams:
+    232:246:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    232:250:void <init>(int,int) -> <init>
+    232:254:void <init>(android.view.ViewGroup$LayoutParams) -> <init>
+cards.pay.paycardsrecognizer.sdk.camera.widget.CardDetectionStateView -> cards.pay.paycardsrecognizer.sdk.camera.widget.CardDetectionStateView:
+    87:87:void <init>(android.content.Context) -> <init>
+    91:91:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    64:96:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    134:138:android.graphics.Paint createCardTextPaint() -> createCardTextPaint
+    217:225:void drawBackground(android.graphics.Canvas) -> drawBackground
+    229:247:void drawCorners(android.graphics.Canvas) -> drawCorners
+    252:273:void drawRecognitionResult(android.graphics.Canvas) -> drawRecognitionResult
+    100:129:void init(android.content.Context) -> init
+    143:168:void initCornerDrawables(android.content.Context) -> initCornerDrawables
+    173:197:void initLineDrawables(android.content.Context) -> initLineDrawables
+    210:213:void onDraw(android.graphics.Canvas) -> onDraw
+    202:205:void onSizeChanged(int,int,int,int) -> onSizeChanged
+    279:281:void refreshCardRectCoords() -> refreshCardRectCoords
+    285:290:void refreshCardRectInvalidation() -> refreshCardRectInvalidation
+    294:329:void refreshDrawableBounds() -> refreshDrawableBounds
+    336:338:void refreshTextSize() -> refreshTextSize
+    380:383:void setCameraParameters(int,int,int,android.graphics.Rect) -> setCameraParameters
+    342:344:void setDetectionState(int) -> setDetectionState
+    355:369:void setRecognitionResult(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> setRecognitionResult
+cards.pay.paycardsrecognizer.sdk.camera.widget.CardRectCoordsMapper -> cards.pay.paycardsrecognizer.sdk.camera.widget.CardRectCoordsMapper:
+    12:24:void <clinit>() -> <clinit>
+    39:76:void <init>() -> <init>
+    214:214:int getCameraHeightRotated() -> getCameraHeightRotated
+    210:210:int getCameraWidthRotated() -> getCameraWidthRotated
+    96:96:float getCardDateFontSize() -> getCardDateFontSize
+    92:92:android.graphics.PointF getCardDatePos() -> getCardDatePos
+    105:105:float getCardHolderFontSize() -> getCardHolderFontSize
+    101:101:android.graphics.PointF getCardHolderPos() -> getCardHolderPos
+    88:88:float getCardNumberFontSize() -> getCardNumberFontSize
+    84:84:android.graphics.PointF getCardNumberPos() -> getCardNumberPos
+    80:80:android.graphics.Rect getCardRect() -> getCardRect
+    205:206:void mapToViewCoordinates(android.graphics.PointF,android.graphics.PointF) -> mapToViewCoordinates
+    124:133:void refreshCameraDefaults() -> refreshCameraDefaults
+    192:195:void refreshCardRect() -> refreshCardRect
+    199:201:void refreshCardTextPositions() -> refreshCardTextPositions
+    169:185:void refreshTransform() -> refreshTransform
+    141:155:boolean setCameraParameters(int,int,int,android.graphics.Rect) -> setCameraParameters
+    109:116:boolean setViewSize(int,int) -> setViewSize
+    160:162:void sync() -> sync
+cards.pay.paycardsrecognizer.sdk.ndk.DisplayConfigurationImpl -> cards.pay.paycardsrecognizer.sdk.ndk.DisplayConfigurationImpl:
+    34:38:void <init>() -> <init>
+    72:87:int getNativeDisplayRotation() -> getNativeDisplayRotation
+    106:113:int getPreprocessFrameRotation(int,int) -> getPreprocessFrameRotation
+    92:99:void refreshPreprocessFrameRotation() -> refreshPreprocessFrameRotation
+    65:66:void setCameraParameters(int) -> setCameraParameters
+    42:43:void setDisplayParameters(android.view.Display) -> setDisplayParameters
+    49:54:void setDisplayParameters(int,boolean) -> setDisplayParameters
+    131:131:java.lang.String toString() -> toString
+cards.pay.paycardsrecognizer.sdk.ndk.DisplayHelper -> cards.pay.paycardsrecognizer.sdk.ndk.DisplayHelper:
+    15:15:void <init>() -> <init>
+    27:30:int getCameraRotationToNatural(int,int,boolean) -> getCameraRotationToNatural
+    41:41:int getDisplayRotationDegrees(int) -> getDisplayRotationDegrees
+    45:45:int getDisplayRotationDegrees(android.view.Display) -> getDisplayRotationDegrees
+    48:60:boolean naturalOrientationIsLandscape(android.view.Display) -> naturalOrientationIsLandscape
+cards.pay.paycardsrecognizer.sdk.ndk.NeuroDataHelper -> cards.pay.paycardsrecognizer.sdk.ndk.NeuroDataHelper:
+    25:28:void <init>(android.content.Context) -> <init>
+    53:86:java.lang.String copyAssetToCacheDir(java.lang.String) -> copyAssetToCacheDir
+    90:90:java.io.File getDataBasePath() -> getDataBasePath
+    94:94:java.io.File getDstPath(java.lang.String) -> getDstPath
+    32:32:void unpackAssets() -> unpackAssets
+    37:47:void unpackFileOrDir(java.lang.String) -> unpackFileOrDir
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionConstants:
+    49:49:void <init>() -> <init>
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore:
+    19:19:void <clinit>() -> <clinit>
+    15:15:void <init>() -> <init>
+    31:42:void deploy(android.content.Context) -> deploy
+    77:77:android.graphics.Rect getCardFrameRect() -> getCardFrameRect
+    23:27:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCore getInstance(android.content.Context) -> getInstance
+    53:53:boolean isDeviceSupported() -> isDeviceSupported
+    94:94:boolean isIdle() -> isIdle
+    47:49:boolean isInitialized() -> isInitialized
+    82:82:int processFrameYV12(int,int,byte[]) -> processFrameYV12
+    86:86:void resetResult() -> resetResult
+    73:73:void setDisplayConfiguration(cards.pay.paycardsrecognizer.sdk.ndk.DisplayConfiguration) -> setDisplayConfiguration
+    90:90:void setIdle(boolean) -> setIdle
+    69:69:void setRecognitionMode(int) -> setRecognitionMode
+    57:57:void setStatusListener(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionStatusListener) -> setStatusListener
+    65:65:void setTorchListener(cards.pay.paycardsrecognizer.sdk.ndk.TorchStatusListener) -> setTorchListener
+    61:61:void setTorchStatus(boolean) -> setTorchStatus
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreDummy -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreDummy:
+    9:11:void <init>() -> <init>
+    38:38:android.graphics.Rect getCardFrameRect() -> getCardFrameRect
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk:
+    38:39:void <clinit>() -> <clinit>
+    46:66:void <init>(android.content.Context) -> <init>
+    23:23:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionStatusListener access$000(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk) -> access$000
+    125:128:void deploy() -> deploy
+    248:249:void finalize() -> finalize
+    165:165:android.graphics.Rect getCardFrameRect() -> getCardFrameRect
+    33:34:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk getInstance(android.content.Context) -> getInstance
+    185:185:boolean isIdle() -> isIdle
+    227:228:void onCardImageReceived(android.graphics.Bitmap) -> onCardImageReceived
+    200:220:void onRecognitionResultReceived(boolean,boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,android.graphics.Bitmap,int,int,int,int) -> onRecognitionResultReceived
+    236:243:void onTorchStatusChanged(boolean) -> onTorchStatusChanged
+    170:173:int processFrameYV12(int,int,byte[]) -> processFrameYV12
+    177:177:void resetResult() -> resetResult
+    159:161:void setDisplayConfiguration(cards.pay.paycardsrecognizer.sdk.ndk.DisplayConfiguration) -> setDisplayConfiguration
+    181:181:void setIdle(boolean) -> setIdle
+    155:155:void setRecognitionMode(int) -> setRecognitionMode
+    132:132:void setStatusListener(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionStatusListener) -> setStatusListener
+    140:151:void setTorchListener(cards.pay.paycardsrecognizer.sdk.ndk.TorchStatusListener) -> setTorchListener
+    136:136:void setTorchStatus(boolean) -> setTorchStatus
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk$1 -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk$1:
+    66:66:void <init>(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk) -> <init>
+    69:79:boolean handleMessage(android.os.Message) -> handleMessage
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk$TorchStatusListenerHandler -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk$TorchStatusListenerHandler:
+    95:96:void <init>(android.os.Looper,cards.pay.paycardsrecognizer.sdk.ndk.TorchStatusListener) -> <init>
+    100:101:void <init>(cards.pay.paycardsrecognizer.sdk.ndk.TorchStatusListener) -> <init>
+    88:88:cards.pay.paycardsrecognizer.sdk.ndk.TorchStatusListener access$100(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionCoreNdk$TorchStatusListenerHandler) -> access$100
+    115:120:void handleMessage(android.os.Message) -> handleMessage
+    105:106:void sendStatusChanged(boolean) -> sendStatusChanged
+    110:110:void stop() -> stop
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult:
+    36:178:void <clinit>() -> <clinit>
+    12:12:void <init>(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder,cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$1) -> <init>
+    49:57:void <init>(java.lang.String,java.lang.String,java.lang.String,android.graphics.Rect,java.lang.String,android.graphics.Bitmap,boolean,boolean) -> <init>
+    60:68:void <init>(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> <init>
+    167:175:void <init>(android.os.Parcel) -> <init>
+    12:12:android.graphics.Bitmap access$1000(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> access$1000
+    12:12:java.lang.String access$1100(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> access$1100
+    12:12:java.lang.String access$1200(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> access$1200
+    12:12:java.lang.String access$1300(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> access$1300
+    12:12:java.lang.String access$1400(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> access$1400
+    12:12:android.graphics.Rect access$1500(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> access$1500
+    12:12:boolean access$800(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> access$800
+    12:12:boolean access$900(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> access$900
+    39:39:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult empty() -> empty
+    122:134:boolean equals(java.lang.Object) -> equals
+    97:97:android.graphics.Bitmap getCardImage() -> getCardImage
+    116:116:int getCardImageHeight() -> getCardImageHeight
+    112:112:int getCardImageWidth() -> getCardImageWidth
+    82:82:java.lang.String getDate() -> getDate
+    87:87:java.lang.String getName() -> getName
+    92:92:java.lang.String getNameRaw() -> getNameRaw
+    77:77:java.lang.String getNumber() -> getNumber
+    101:101:android.graphics.Rect getNumberImageRect() -> getNumberImageRect
+    139:146:int hashCode() -> hashCode
+    108:108:boolean isFinal() -> isFinal
+    104:104:boolean isFirst() -> isFirst
+    72:72:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder newBuilder() -> newBuilder
+    157:164:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$1 -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$1:
+    178:178:void <init>() -> <init>
+    178:178:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    180:180:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult createFromParcel(android.os.Parcel) -> createFromParcel
+    178:178:java.lang.Object[] newArray(int) -> newArray
+    184:184:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult[] newArray(int) -> newArray
+cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder -> cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder:
+    189:198:void <init>() -> <init>
+    189:209:void <init>(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> <init>
+    188:188:android.graphics.Bitmap access$000(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> access$000
+    188:188:java.lang.String access$100(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> access$100
+    188:188:java.lang.String access$200(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> access$200
+    188:188:java.lang.String access$300(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> access$300
+    188:188:java.lang.String access$400(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> access$400
+    188:188:android.graphics.Rect access$500(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> access$500
+    188:188:boolean access$600(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> access$600
+    188:188:boolean access$700(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder) -> access$700
+    253:253:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult build() -> build
+    213:213:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder setCardImage(android.graphics.Bitmap) -> setCardImage
+    223:223:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder setDate(java.lang.String) -> setDate
+    243:243:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder setIsFinal(boolean) -> setIsFinal
+    248:248:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder setIsFirst(boolean) -> setIsFirst
+    228:228:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder setName(java.lang.String) -> setName
+    233:233:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder setNameRaw(java.lang.String) -> setNameRaw
+    218:218:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder setNumber(java.lang.String) -> setNumber
+    238:238:cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult$Builder setNumberImageRect(android.graphics.Rect) -> setNumberImageRect
+cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment -> cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment:
+    32:32:void <init>() -> <init>
+    32:32:android.view.View access$000(cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment) -> access$000
+    32:32:cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment$InteractionListener access$100(cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment) -> access$100
+    93:100:void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    50:54:void onAttach(android.content.Context) -> onAttach
+    61:66:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    140:141:void onDestroyView() -> onDestroyView
+    147:148:void onDetach() -> onDetach
+    106:113:void onRequestPermissionsResult(int,java.lang.String[],int[]) -> onRequestPermissionsResult
+    131:134:void onStop() -> onStop
+    82:88:void onViewCreated(android.view.View,android.os.Bundle) -> onViewCreated
+    123:126:void subscribeToInitCore(android.content.Context) -> subscribeToInitCore
+cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment$DeployCoreTask -> cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment$DeployCoreTask:
+    164:166:void <init>(cards.pay.paycardsrecognizer.sdk.ui.InitLibraryFragment) -> <init>
+    157:157:java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
+    172:178:java.lang.Throwable doInBackground(java.lang.Void[]) -> doInBackground
+    157:157:void onPostExecute(java.lang.Object) -> onPostExecute
+    188:198:void onPostExecute(java.lang.Throwable) -> onPostExecute
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardActivity -> cards.pay.paycardsrecognizer.sdk.ui.ScanCardActivity:
+    21:21:void <init>() -> <init>
+    111:113:cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest getScanRequest() -> getScanRequest
+    28:43:void onCreate(android.os.Bundle) -> onCreate
+    106:107:void onInitLibraryComplete() -> onInitLibraryComplete
+    90:92:void onInitLibraryFailed(java.lang.Throwable) -> onInitLibraryFailed
+    73:75:void onScanCardFailed(java.lang.Exception) -> onScanCardFailed
+    81:85:void onScanCardFinished(cards.pay.paycardsrecognizer.sdk.Card,byte[]) -> onScanCardFinished
+    50:54:void showInitLibrary() -> showInitLibrary
+    58:67:void showScanCard() -> showScanCard
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment -> cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment:
+    40:58:void <init>() -> <init>
+    40:40:cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate access$000(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> access$000
+    40:40:cards.pay.paycardsrecognizer.sdk.camera.widget.CameraPreviewLayout access$100(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> access$100
+    40:40:android.view.View access$200(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> access$200
+    40:40:void access$300(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> access$300
+    40:40:void access$400(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> access$400
+    40:40:void access$500(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment,java.lang.Exception) -> access$500
+    40:40:cards.pay.paycardsrecognizer.sdk.camera.ScanManager access$600(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> access$600
+    40:40:void access$700(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> access$700
+    40:40:void access$800(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment,cards.pay.paycardsrecognizer.sdk.Card,byte[]) -> access$800
+    299:299:void finishWithError(java.lang.Exception) -> finishWithError
+    303:303:void finishWithResult(cards.pay.paycardsrecognizer.sdk.Card,byte[]) -> finishWithResult
+    294:295:void hideMainContent() -> hideMainContent
+    264:274:void initView(android.view.View) -> initView
+    248:250:void innitSoundPool() -> innitSoundPool
+    307:307:boolean isTablet() -> isTablet
+    120:133:void onActivityCreated(android.os.Bundle) -> onActivityCreated
+    67:71:void onAttach(android.content.Context) -> onAttach
+    77:82:void onCreate(android.os.Bundle) -> onCreate
+    89:90:android.view.animation.Animation onCreateAnimation(int,boolean,int) -> onCreateAnimation
+    97:114:android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> onCreateView
+    239:244:void onDestroy() -> onDestroy
+    222:222:void onDetach() -> onDetach
+    233:234:void onPause() -> onPause
+    227:228:void onResume() -> onResume
+    217:217:void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    207:207:void onStart() -> onStart
+    212:212:void onStop() -> onStop
+    311:311:void playCaptureSound() -> playCaptureSound
+    289:290:void showMainContent() -> showMainContent
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$1 -> cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$1:
+    89:89:void <init>(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> <init>
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$2 -> cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$2:
+    133:135:void <init>(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> <init>
+    194:196:byte[] compressCardImage(android.graphics.Bitmap) -> compressCardImage
+    139:146:void onCameraOpened(android.hardware.Camera$Parameters) -> onCameraOpened
+    179:179:void onCardImageReceived(android.graphics.Bitmap) -> onCardImageReceived
+    151:153:void onOpenCameraError(java.lang.Exception) -> onOpenCameraError
+    158:173:void onRecognitionComplete(cards.pay.paycardsrecognizer.sdk.ndk.RecognitionResult) -> onRecognitionComplete
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$3 -> cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$3:
+    265:265:void <init>(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> <init>
+    268:268:void onClick(android.view.View) -> onClick
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$4 -> cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment$4:
+    274:274:void <init>(cards.pay.paycardsrecognizer.sdk.ui.ScanCardFragment) -> <init>
+    277:277:void onClick(android.view.View) -> onClick
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest -> cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest:
+    27:104:void <clinit>() -> <clinit>
+    38:42:void <init>(boolean,boolean,boolean,boolean) -> <init>
+    97:101:void <init>(android.os.Parcel) -> <init>
+    64:71:boolean equals(java.lang.Object) -> equals
+    32:32:cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest getDefault() -> getDefault
+    76:79:int hashCode() -> hashCode
+    58:58:boolean isGrabCardImageEnabled() -> isGrabCardImageEnabled
+    54:54:boolean isScanCardHolderEnabled() -> isScanCardHolderEnabled
+    50:50:boolean isScanExpirationDateEnabled() -> isScanExpirationDateEnabled
+    46:46:boolean isSoundEnabled() -> isSoundEnabled
+    91:94:void writeToParcel(android.os.Parcel,int) -> writeToParcel
+cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest$1 -> cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest$1:
+    104:104:void <init>() -> <init>
+    104:104:java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
+    107:107:cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest createFromParcel(android.os.Parcel) -> createFromParcel
+    104:104:java.lang.Object[] newArray(int) -> newArray
+    112:112:cards.pay.paycardsrecognizer.sdk.ui.ScanCardRequest[] newArray(int) -> newArray
+cards.pay.paycardsrecognizer.sdk.ui.views.ButtonWithTopBorder -> cards.pay.paycardsrecognizer.sdk.ui.views.ButtonWithTopBorder:
+    15:16:void <init>(android.content.Context) -> <init>
+    20:21:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    25:26:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    30:33:void init() -> init
+    38:39:void onDraw(android.graphics.Canvas) -> onDraw
+cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate -> cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate:
+    15:15:void <init>(android.content.Context) -> <init>
+    19:19:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    23:23:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    36:40:void hideSlow() -> hideSlow
+    28:31:void setVisibility(int) -> setVisibility
+cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate$1 -> cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate$1:
+    40:40:void <init>(cards.pay.paycardsrecognizer.sdk.ui.views.ProgressBarIndeterminate) -> <init>
+    48:49:void onAnimationEnd(android.animation.Animator) -> onAnimationEnd
+cards.pay.paycardsrecognizer.sdk.ui.views.TabletCardRecognitionHolderLinearLayout -> cards.pay.paycardsrecognizer.sdk.ui.views.TabletCardRecognitionHolderLinearLayout:
+    19:19:void <init>(android.content.Context) -> <init>
+    23:23:void <init>(android.content.Context,android.util.AttributeSet) -> <init>
+    27:27:void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
+    32:34:void onFinishInflate() -> onFinishInflate
+    39:55:void onMeasure(int,int) -> onMeasure
+cards.pay.paycardsrecognizer.sdk.utils.CardUtils -> cards.pay.paycardsrecognizer.sdk.utils.CardUtils:
+    37:51:java.lang.String getCardNumberRedacted(java.lang.String) -> getCardNumberRedacted
+    14:30:java.lang.String prettyPrintCardNumber(java.lang.CharSequence) -> prettyPrintCardNumber
+cards.pay.paycardsrecognizer.sdk.utils.Fonts -> cards.pay.paycardsrecognizer.sdk.utils.Fonts:
+    13:18:android.graphics.Typeface getCardFont(android.content.Context) -> getCardFont
+cards.pay.paycardsrecognizer.sdk.utils.Size -> cards.pay.paycardsrecognizer.sdk.utils.Size:
+    9:11:void <init>(int,int) -> <init>
+    3:3:int compareTo(java.lang.Object) -> compareTo
+    35:39:int compareTo(cards.pay.paycardsrecognizer.sdk.utils.Size) -> compareTo
+    17:22:boolean equals(java.lang.Object) -> equals
+    28:29:int hashCode() -> hashCode
+    47:47:java.lang.String toString() -> toString
