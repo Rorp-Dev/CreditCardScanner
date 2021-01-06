@@ -48,7 +48,7 @@ protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 ```
 MIT License
 
-Copyright (c) 2017 faceterteam
+Copyright (c) 2021 Rorp-Dev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
